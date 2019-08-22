@@ -55,6 +55,8 @@ class _WeatherBodyState extends State<WeatherBody> {
     print('Added the log message of mina');
     print('Added the log message of mina number 2');
     print('Added the log message of Beshoy');
+    print('Added the log message of Beshoy2');
+
 
     
     checkLogicOFConnection();
