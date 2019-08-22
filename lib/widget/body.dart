@@ -52,6 +52,7 @@ class _WeatherBodyState extends State<WeatherBody> {
   Widget build(BuildContext context) {
 
     print('Added the log message of mina');
+    print('Added the log message of mina number 2');
     
     checkLogicOFConnection();
     return listWeatherDatabase.length == 0
