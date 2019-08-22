@@ -35,6 +35,7 @@ class _WeatherBodyState extends State<WeatherBody> {
     } else {
       if (networkState) {
         print("OFFAPP: get data online");
+        print("OFFAPP: get data devNermeen");
         isApiCalled = true;
         getWeather();
       } else {
@@ -52,7 +53,6 @@ class _WeatherBodyState extends State<WeatherBody> {
   Widget build(BuildContext context) {
 
     print('Added the log message of mina');
-    
     checkLogicOFConnection();
     return listWeatherDatabase.length == 0
         ? Center(
