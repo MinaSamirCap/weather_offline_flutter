@@ -52,9 +52,7 @@ class _WeatherBodyState extends State<WeatherBody> {
   @override
   Widget build(BuildContext context) {
 
-    print('Added the log message of mina');
-    print('Added the log message of mina number 2');
-    print('Added the log message of Beshoy');
+    /// removed all prints ... ;
 
     
     checkLogicOFConnection();
