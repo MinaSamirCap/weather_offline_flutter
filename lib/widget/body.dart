@@ -35,6 +35,7 @@ class _WeatherBodyState extends State<WeatherBody> {
     } else {
       if (networkState) {
         print("OFFAPP: get data online");
+        print("OFFAPP: get data devNermeen");
         isApiCalled = true;
         getWeather();
       } else {
