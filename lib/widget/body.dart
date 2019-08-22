@@ -51,6 +51,12 @@ class _WeatherBodyState extends State<WeatherBody> {
 
   @override
   Widget build(BuildContext context) {
+    /// removed all prints ... ;
+    print('Added the log message of mina');
+    print('Added the log message of mina number 2');
+    print('Added the log message of Beshoy');
+    print('Added the log message of Beshoy2');
+
     checkLogicOFConnection();
     return listWeatherDatabase.length == 0
         ? Center(
