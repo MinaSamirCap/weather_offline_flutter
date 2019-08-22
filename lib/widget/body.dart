@@ -51,10 +51,6 @@ class _WeatherBodyState extends State<WeatherBody> {
 
   @override
   Widget build(BuildContext context) {
-
-    /// removed all prints ... ;
-
-    
     checkLogicOFConnection();
     return listWeatherDatabase.length == 0
         ? Center(
